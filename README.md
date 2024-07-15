@@ -157,7 +157,7 @@ Implements loss functions:
 [CrossEntropyLoss](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/losses.py#L57)
 
 
-### [net.py](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/cec13eb7d1824205490e48d4437a62fd5c946e1d/nn/nn/net.py)
+### [net.py]([https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/cec13eb7d1824205490e48d4437a62fd5c946e1d/nn/nn/net.py](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/net.py))
 
 Defines the Net class for creating and managing the entire neural network.
 
