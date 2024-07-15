@@ -103,61 +103,61 @@ net.update_weights(learning_rate=0.01)
 
 ## Module Overview
 
-### [layers.py](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/layers.py)
+### [layers.py](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/layers.py)
 
 
 
-Contains base classes for layers ([Function](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/layers.py#L7) and [Layer](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/layers.py#L50)) and implementations of specific layer types:
+Contains base classes for layers ([Function](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/layers.py#L7) and [Layer](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/layers.py#L50)) and implementations of specific layer types:
 
 
-[Flatten](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/layers.py#L76)
+[Flatten](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/layers.py#L76)
 
-[MaxPool2D](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/layers.py#L86)
+[MaxPool2D](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/layers.py#L86)
 
-[BatchNorm2D](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/layers.py#L134)
+[BatchNorm2D](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/layers.py#L134)
 
-[Linear](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/layers.py#L193)
+[Linear](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/layers.py#L193)
 
-[Conv2D](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/layers.py#L233)
+[Conv2D](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/layers.py#L233)
 
 
-### [activations.py](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py)
+### [activations.py](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py)
 
 Implements various activation functions as subclasses of Function:
 
 
-[Sigmoid](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py#L6)
+[Sigmoid](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py#L6)
 
-[Relu](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py#L18)
+[Relu](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py#L18)
 
-[LeakyRelu](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py#:30)
+[LeakyRelu](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py#:30)
 
-[Softmax](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py#L42)
+[Softmax](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py#L42)
 
-[Tanh](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py#L73)
+[Tanh](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py#L73)
 
-[Elu](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py#L85)
+[Elu](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py#L85)
 
-[Swish](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py#L101)
+[Swish](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py#L101)
 
-[Mish](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/532b7448b496a05696dfa6ad357b29c9cb23f269/nn/nn/activations.py#L113)
+[Mish](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/activations.py#L113)
 
 
-### [functional.py](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/85a84991b1d20c63f32b1f5f9c9e7c997297595d/nn/nn/functional.py)
+### [functional.py](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/functional.py)
 
 Provides numpy implementations of activation functions and their derivatives.
 
-### [losses.py](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/losses.py)
+### [losses.py](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/losses.py)
 
 Implements loss functions:
 
 
-[MSELoss](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/losses.py#L46) (Mean Squared Error)
+[MSELoss](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/losses.py#L46) (Mean Squared Error)
 
-[CrossEntropyLoss](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/8c3aeff96e1008d6e7ad61f9950e5cb9753ef22e/nn/nn/losses.py#L57)
+[CrossEntropyLoss](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/losses.py#L57)
 
 
-### [net.py](https://github.com/A-Elshahawy/neural-nets-from-scratch/blob/cec13eb7d1824205490e48d4437a62fd5c946e1d/nn/nn/net.py)
+### [net.py](https://github.com/A-Elshahawy/neural-net-from-scratch/blob/72d6b9ecadcf928315905f3cf89baceae27d4cad/nn/net.py)
 
 Defines the Net class for creating and managing the entire neural network.
 
